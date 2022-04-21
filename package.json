@@ -41,6 +41,7 @@
     "@babel/preset-env": "^7.13.9",
     "@babel/preset-react": "^7.12.13",
     "@react-three/drei": "^3.9.0",
+    "@react-three/fiber": "^7.0.26",
     "bootstrap": "^4.6.0",
     "buffer": "^6.0.3",
     "clean-webpack-plugin": "^3.0.0",

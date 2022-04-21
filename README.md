@@ -41,7 +41,7 @@ npm install
 
 This will install the dependencies for the WebFM server.
 
-For the client, navigate to `{webfm}/app` and once again run
+For the client, navigate to `{webfm}/src` and once again run
 
 ```
 npm install
@@ -49,29 +49,22 @@ npm install
 
 ## Build
 
-To build the client application scripts, navigate to `{webfm}/app` and run
+To build the client application scripts, navigate to `{webfm}` and run
 
 ```
-./build
+npm build
 ```
 
 To test that everything has installed properly, navigate to `{webfm}` and run
 
 ```
-node webfm
+node start
 ```
 
 You should see
 
 ```
 Serving {webfm}/public on 54321:tcp
-```
-
-If you encounter issues starting the server on the default port, you can
-specify a port that works with the `-p` option:
-
-```
-node webfm -p 8080
 ```
 
 # Usage
